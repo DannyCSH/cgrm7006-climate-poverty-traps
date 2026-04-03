@@ -1,23 +1,41 @@
-# GitHub Publish Staging
+# CGRM7006 Climate-Poverty Traps
 
-This folder is prepared for GitHub publication once local authentication is restored.
+这是当前项目的 GitHub 发布目录，内容已经切换为最终中文交付版本。
 
-Contents:
+## 当前核心文件
 
-- `cgrm7006_high_score_project_writeup.pdf`: main draft writeup
-- `cgrm7006_collaborator_manual.pdf`: collaborator-facing manual
-- `10_baseline_fe_results.csv`: validated baseline FE summary
-- `11_agri_extension_fe_results.csv`: validated agriculture interaction summary
-- `assets/baseline_coefficients.png`: baseline coefficient chart
-- `assets/agri_interaction_effects.png`: agriculture heterogeneity chart
+- `cgrm7006_high_score_writeup_zh.md`
+- `cgrm7006_high_score_writeup_zh.pdf`
+- `cgrm7006_collaborator_manual_zh.md`
+- `cgrm7006_collaborator_manual_zh.pdf`
 
-Current blocker:
+## 图表资产
 
-- `gh auth status` reports an invalid token for the active GitHub account on this machine.
-- Files are ready for upload but not yet published online.
+- `assets/figure_1_baseline_coefficients.png`
+- `assets/figure_2_agri_heterogeneity.png`
+- `assets/figure_3_governance_heterogeneity.png`
+- `assets/figure_4_country_risk_scatter.png`
+- `assets/figure_5_subnational_hotspot_map.png`
 
-Suggested next step after authentication is fixed:
+## 表格数据
 
-1. Create or choose a repository.
-2. Upload the files in this folder.
-3. Replace any temporary local paths in future documents with public GitHub links.
+- `descriptive_statistics.csv`
+- `main_results_table.csv`
+- `moderator_screen.csv`
+- `top_country_risk_scores.csv`
+- `10_baseline_fe_results.csv`
+- `11_agri_extension_fe_results.csv`
+
+## 项目定位
+
+本项目基于原论文的子国家面板识别框架，重点研究：
+
+- 升温是否提高贫困和不平等；
+- 农业依赖是否放大这种影响；
+- 哪些国家或地区最接近 climate-poverty traps。
+
+## 使用建议
+
+- 正式写作请优先查看 `cgrm7006_high_score_writeup_zh.*`
+- 给同学和协作 AI agent 的说明请查看 `cgrm7006_collaborator_manual_zh.*`
+- 海报与 slides 选图时，优先考虑图 1、图 2、图 5
