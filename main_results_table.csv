@@ -1,0 +1,3 @@
+Outcome,Baseline temp coef.,Baseline SE,High-agri effect,High-agri interaction,Interaction p-value,N
+Extreme poverty,0.629,0.146,1.677,1.404,0.000527,6042
+Gini inequality,0.463,0.166,0.965,0.956,0.000885,5133
