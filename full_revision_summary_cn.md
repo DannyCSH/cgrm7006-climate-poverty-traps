@@ -38,6 +38,30 @@
 
 ## 二、当前已经验证的核心结果
 
+### 总览表：四组模型的温度系数
+
+| 结果变量 | 次国家 FE | 次国家 LD | 国家级 FE | 国家级 LD | 当前最稳的解释 |
+| --- | --- | --- | --- | --- | --- |
+| `poor215` | `0.629` | `1.178` | `0.737` | `1.107` | 次国家结果稳健，国家级精度明显下降 |
+| `poor365` | `0.809` | `0.736` | `0.521` | `0.048` | 次国家结果稳健，国家级聚合后明显变弱 |
+| `poor685` | `0.165` | `-0.125` | `-0.058` | `-1.051` | 各设定下都不稳健，不应强讲 |
+| `gini` | `0.463` | `0.684` | `0.337` | `1.312` | 次国家方向稳定，国家级精度偏弱 |
+| `theil` | `1.119` | `1.273` | `0.653` | `2.267` | 次国家结果更稳，Theil 对不平等变化更敏感 |
+
+### 样本构造表
+
+| 阶段 | 样本量 |
+| --- | ---: |
+| 原始面板观测值 | `6727` |
+| 贫困变量可用样本 | `6719` |
+| 不平等变量可用样本 | `5736` |
+| FE 完整样本：贫困结果 | `6052` |
+| FE 完整样本：不平等结果 | `5143` |
+| 农业异质性完整样本：贫困结果 | `6042` |
+| 农业异质性完整样本：不平等结果 | `5133` |
+| LD 完整样本：贫困结果 | `1292` |
+| LD 完整样本：不平等结果 | `1194` |
+
 ### 1. 次国家 FE
 
 - `poor215 = 0.629`
@@ -166,3 +190,35 @@
   `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_8_scale_comparison_poverty.png`
 - 国家级 vs 次国家不平等对照图：
   `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_9_scale_comparison_inequality.png`
+
+## 九、图表直接预览
+
+### 1. 第一轮：次国家 FE/LD 主结果
+
+#### 贫困结果图
+
+![第一轮贫困 FE/LD 图](https://raw.githubusercontent.com/DannyCSH/cgrm7006-climate-poverty-traps/main/assets/figure_1_poverty_fe_ld.png)
+
+#### 不平等结果图
+
+![第一轮不平等 FE/LD 图](https://raw.githubusercontent.com/DannyCSH/cgrm7006-climate-poverty-traps/main/assets/figure_2_inequality_fe_ld.png)
+
+### 2. 第二轮：温度分箱结果
+
+#### 贫困温度分箱图
+
+![第二轮温度分箱贫困图](https://raw.githubusercontent.com/DannyCSH/cgrm7006-climate-poverty-traps/main/assets/figure_6_temperature_bins_poverty.png)
+
+#### 不平等温度分箱图
+
+![第二轮温度分箱不平等图](https://raw.githubusercontent.com/DannyCSH/cgrm7006-climate-poverty-traps/main/assets/figure_7_temperature_bins_inequality.png)
+
+### 3. 第二轮：国家级与次国家对照
+
+#### 贫困结果对照图
+
+![第二轮国家级 vs 次国家贫困对照图](https://raw.githubusercontent.com/DannyCSH/cgrm7006-climate-poverty-traps/main/assets/figure_8_scale_comparison_poverty.png)
+
+#### 不平等结果对照图
+
+![第二轮国家级 vs 次国家不平等对照图](https://raw.githubusercontent.com/DannyCSH/cgrm7006-climate-poverty-traps/main/assets/figure_9_scale_comparison_inequality.png)
