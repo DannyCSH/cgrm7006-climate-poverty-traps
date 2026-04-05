@@ -1,0 +1,15 @@
+variable,role,definition_cn,note
+poor215,outcome,世界银行极端贫困线 US$2.15/day 下的人口占比,用于识别最低贫困线下的温度效应
+poor365,outcome,世界银行较低中等收入贫困线 US$3.65/day 下的人口占比,第一轮新增进入主结果
+poor685,outcome,世界银行较高中等收入贫困线 US$6.85/day 下的人口占比,当前 FE 与 LD 下都不显著
+gini,outcome,基尼系数,收入或消费分配不平等指标
+theil,outcome,泰尔指数,对分布尾部变化更敏感的不平等指标
+temp,main explanatory variable,地区年度平均温度,核心解释变量
+rainfall_sum,weather control,年度降雨量,天气控制变量
+humid,weather control,湿度,天气控制变量
+ln_GDPppp,control,人均 GDP PPP 的对数,发展水平控制
+Unempilo,control,失业率,劳动力市场控制
+agri,control,农业增加值占 GDP 比重,进入主回归作为结构控制变量
+manuf,control,制造业增加值占 GDP 比重,结构控制变量
+popgr,control,人口增长率,人口结构控制
+indexagri,moderator,农业依赖指数或农业脆弱性指标,与 agri 高度相关但在当前项目中作为异质性调节变量使用

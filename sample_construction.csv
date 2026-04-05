@@ -1,0 +1,10 @@
+stage,sample_size
+Raw panel observations,6727
+Poverty outcomes available,6719
+Inequality outcomes available,5736
+Baseline FE complete: poverty,6052
+Baseline FE complete: inequality,5143
+Agri extension complete: poverty,6042
+Agri extension complete: inequality,5133
+Long-difference complete: poverty,1292
+Long-difference complete: inequality,1194
