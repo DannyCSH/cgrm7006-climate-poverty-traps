@@ -132,3 +132,37 @@
 可以直接说：
 
 “目前我们已经把最关键的反馈基本补齐了。第一轮补上了 5 个结果变量、次国家 FE+LD、样本构造表和变量定义表；第二轮补上了温度分箱，恢复了原文‘高温区效应更强’的主线，同时也补了国家级聚合对照，证明国家平均会弱化和模糊次国家层面的气候贫困风险。现在分析层面已经比较完整，下一步主要是把中文 writeup/manual、海报和 PPT 全部同步到这版结果上。” 
+
+## 八、GitHub 图表与表格链接
+
+下面这些链接都是目前已经修改或新生成、并且已经推送到 GitHub 的图表和结果表。
+
+### 第一轮结果
+
+- 基线 FE 结果表：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/10_baseline_fe_results.csv`
+- 次国家 LD 结果表：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/15_long_difference_results.csv`
+- 样本构造表：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/sample_construction.csv`
+- 变量定义表：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/variable_definition_table.csv`
+- 贫困 FE/LD 图：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_1_poverty_fe_ld.png`
+- 不平等 FE/LD 图：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_2_inequality_fe_ld.png`
+
+### 第二轮结果
+
+- 国家级 FE/LD 结果表：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/17_national_fe_ld_results.csv`
+- 温度分箱结果表：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/temperature_bin_results.csv`
+- 温度分箱贫困图：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_6_temperature_bins_poverty.png`
+- 温度分箱不平等图：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_7_temperature_bins_inequality.png`
+- 国家级 vs 次国家贫困对照图：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_8_scale_comparison_poverty.png`
+- 国家级 vs 次国家不平等对照图：
+  `https://github.com/DannyCSH/cgrm7006-climate-poverty-traps/blob/main/assets/figure_9_scale_comparison_inequality.png`
